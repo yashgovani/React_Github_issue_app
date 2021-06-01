@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100vh;
+}
+
+.d-inline {
+  display: inline-block;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+  
+}
+
+img {
+  width: 100%;
+}
