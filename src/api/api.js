@@ -1,7 +1,6 @@
 import axios from 'axios';
 
 const url = 'https://api.github.com';
-//const githubToken = 'ghp_jdvyRWVjgknHwzTyUP6vfYg8RJM5FG2p';
 
 export const fetchIssues = async () => {
   return await axios.get(
@@ -27,6 +26,3 @@ export const renderIssueReadme = async (urlReadme) => {
 export const getComments = async (urlComments) => {
   return await axios.get(urlComments);
 };
-
-//https://api.github.com/search/issues?q={facebook}&per_page=100&page_number=1
-/* `${url}/repos/facebook/react/issues`, */
