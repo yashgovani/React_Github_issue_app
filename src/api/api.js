@@ -15,14 +15,6 @@ export const getIssues = async () => {
   return await issues.data;
 };
 
-export const fetchIssueReadme = async (urlIssue) => {
-  return await axios.get(`${urlIssue}`);
-};
-
-export const renderIssueReadme = async (urlReadme) => {
-  return await axios.get(urlReadme);
-};
-
 export const getComments = async (urlComments) => {
   return await axios.get(urlComments);
 };
